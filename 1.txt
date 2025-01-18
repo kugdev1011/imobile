@@ -1,0 +1,130 @@
+make  all-recursive
+make[1]: Entering directory '/home/osboxes/libimobiledevice'
+Making all in 3rd_party
+make[2]: Entering directory '/home/osboxes/libimobiledevice/3rd_party'
+Making all in ed25519
+make[3]: Entering directory '/home/osboxes/libimobiledevice/3rd_party/ed25519'
+  CC       add_scalar.lo
+  CC       fe.lo
+  CC       ge.lo
+  CC       keypair.lo
+  CC       key_exchange.lo
+  CC       sc.lo
+  CC       seed.lo
+  CC       sign.lo
+  CC       sha512.lo
+  CC       verify.lo
+  CCLD     libed25519.la
+make[3]: Leaving directory '/home/osboxes/libimobiledevice/3rd_party/ed25519'
+Making all in libsrp6a-sha512
+make[3]: Entering directory '/home/osboxes/libimobiledevice/3rd_party/libsrp6a-sha512'
+  CC       t_conv.lo
+  CC       t_math.lo
+  CC       t_misc.lo
+  CC       t_truerand.lo
+  CC       cstr.lo
+  CC       srp.lo
+  CC       srp6a_sha512_client.lo
+  CC       t_sha.lo
+  CCLD     libsrp6a-sha512.la
+make[3]: Leaving directory '/home/osboxes/libimobiledevice/3rd_party/libsrp6a-sha512'
+make[3]: Entering directory '/home/osboxes/libimobiledevice/3rd_party'
+make[3]: Nothing to be done for 'all-am'.
+make[3]: Leaving directory '/home/osboxes/libimobiledevice/3rd_party'
+make[2]: Leaving directory '/home/osboxes/libimobiledevice/3rd_party'
+Making all in common
+make[2]: Entering directory '/home/osboxes/libimobiledevice/common'
+  CC       debug.lo
+  CC       userpref.lo
+  CCLD     libinternalcommon.la
+make[2]: Leaving directory '/home/osboxes/libimobiledevice/common'
+Making all in src
+make[2]: Entering directory '/home/osboxes/libimobiledevice/src'
+  CC       idevice.lo
+  CC       service.lo
+  CC       property_list_service.lo
+  CC       device_link_service.lo
+  CC       lockdown.lo
+  CC       lockdown-cu.lo
+  CC       afc.lo
+  CC       file_relay.lo
+  CC       notification_proxy.lo
+  CC       installation_proxy.lo
+  CC       sbservices.lo
+  CC       mobile_image_mounter.lo
+  CC       screenshotr.lo
+  CC       mobilesync.lo
+  CC       mobilebackup.lo
+  CC       house_arrest.lo
+  CC       mobilebackup2.lo
+  CC       misagent.lo
+  CC       restore.lo
+  CC       diagnostics_relay.lo
+  CC       heartbeat.lo
+  CC       debugserver.lo
+  CC       webinspector.lo
+  CC       mobileactivation.lo
+  CC       preboard.lo
+  CC       companion_proxy.lo
+  CC       reverse_proxy.lo
+  CC       syslog_relay.lo
+  CC       bt_packet_logger.lo
+  CCLD     libimobiledevice-1.0.la
+make[2]: Leaving directory '/home/osboxes/libimobiledevice/src'
+Making all in include
+make[2]: Entering directory '/home/osboxes/libimobiledevice/include'
+make[2]: Nothing to be done for 'all'.
+make[2]: Leaving directory '/home/osboxes/libimobiledevice/include'
+Making all in tools
+make[2]: Entering directory '/home/osboxes/libimobiledevice/tools'
+  CC       idevicebtlogger-idevicebtlogger.o
+  CCLD     idevicebtlogger
+  CC       idevice_id-idevice_id.o
+  CCLD     idevice_id
+  CC       ideviceinfo-ideviceinfo.o
+  CCLD     ideviceinfo
+  CC       idevicename-idevicename.o
+  CCLD     idevicename
+  CC       idevicepair-idevicepair.o
+  CCLD     idevicepair
+  CC       idevicesyslog-idevicesyslog.o
+  CCLD     idevicesyslog
+  CC       ideviceimagemounter-ideviceimagemounter.o
+  CCLD     ideviceimagemounter
+  CC       idevicescreenshot-idevicescreenshot.o
+  CCLD     idevicescreenshot
+  CC       ideviceenterrecovery-ideviceenterrecovery.o
+  CCLD     ideviceenterrecovery
+  CC       idevicedate-idevicedate.o
+  CCLD     idevicedate
+  CC       idevicebackup-idevicebackup.o
+  CCLD     idevicebackup
+  CC       idevicebackup2-idevicebackup2.o
+  CCLD     idevicebackup2
+  CC       ideviceprovision-ideviceprovision.o
+  CCLD     ideviceprovision
+  CC       idevicedebugserverproxy-idevicedebugserverproxy.o
+  CCLD     idevicedebugserverproxy
+  CC       idevicediagnostics-idevicediagnostics.o
+  CCLD     idevicediagnostics
+  CC       idevicedebug-idevicedebug.o
+  CCLD     idevicedebug
+  CC       idevicedevmodectl-idevicedevmodectl.o
+  CCLD     idevicedevmodectl
+  CC       idevicenotificationproxy-idevicenotificationproxy.o
+  CCLD     idevicenotificationproxy
+  CC       idevicecrashreport-idevicecrashreport.o
+  CCLD     idevicecrashreport
+  CC       idevicesetlocation-idevicesetlocation.o
+  CCLD     idevicesetlocation
+  CC       afcclient-afcclient.o
+  CCLD     afcclient
+make[2]: Leaving directory '/home/osboxes/libimobiledevice/tools'
+Making all in docs
+make[2]: Entering directory '/home/osboxes/libimobiledevice/docs'
+make[2]: Nothing to be done for 'all'.
+make[2]: Leaving directory '/home/osboxes/libimobiledevice/docs'
+make[2]: Entering directory '/home/osboxes/libimobiledevice'
+make[2]: Nothing to be done for 'all-am'.
+make[2]: Leaving directory '/home/osboxes/libimobiledevice'
+make[1]: Leaving directory '/home/osboxes/libimobiledevice'
